@@ -99,7 +99,7 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: Releway
+    - family: Raleway
       fonts:
         - asset: fonts/Raleway-Regular.ttf
         - asset: fonts/Raleway-Medium.ttf
