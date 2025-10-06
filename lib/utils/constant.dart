@@ -22,6 +22,7 @@ const String KEY_COL_DESCRIPTION = 'description';
 const String KEY_FREQUENCY = 'frequency';
 const String KEY_COL_IS_HAVE_GOAL = 'have_goal';
 const String KEY_COL_TODO_ID = 'todo_id';
+const String KEY_COL_CATEGORY_ID = 'category_id';
 
 // sharedPref Key
 const String KEY_USERNAME = 'username';

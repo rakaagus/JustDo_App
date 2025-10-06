@@ -25,14 +25,14 @@ class JdSubtaskUiEntity extends Equatable{
   factory JdSubtaskUiEntity.fromLocal(JdSubtaskEntity entity) => JdSubtaskUiEntity(
       id: entity.id,
       name: entity.name,
-      todoId: entity.todoId,
       startDate: entity.startDate,
       status: entity.status,
       isComplete: entity.isComplete,
       deadlineTimilis: entity.deadlineTimilis,
-      description: entity.description
+      description: entity.description,
+      todoId: entity.todoId,
   );
 
   @override
-  List<Object?> get props => [id, todoId, name, startDate, description, isComplete, deadlineTimilis, status];
+  List<Object?> get props => [id, name, startDate, description, isComplete, deadlineTimilis, status, todoId];
 }

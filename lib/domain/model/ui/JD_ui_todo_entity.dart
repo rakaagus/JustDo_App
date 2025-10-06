@@ -9,6 +9,7 @@ class JdTodoUiEntity extends Equatable{
   bool isComplete = false;
   String deadlineTimilis = '';
   String status = '';
+  String categoryId = '';
 
   JdTodoUiEntity({
     this.id = '',
@@ -17,7 +18,8 @@ class JdTodoUiEntity extends Equatable{
     this.description = '',
     this.isComplete = false,
     this.deadlineTimilis = '',
-    this.status = ''
+    this.status = '',
+    this.categoryId = ''
   });
 
   factory JdTodoUiEntity.fromLocal(JdTodoEntity entity) => JdTodoUiEntity(
@@ -27,9 +29,10 @@ class JdTodoUiEntity extends Equatable{
     description: entity.description,
     isComplete: entity.isComplete,
     deadlineTimilis: entity.deadlineTimilis,
-    status: entity.status
+    status: entity.status,
+    categoryId: entity.categoryId
   );
 
   @override
-  List<Object?> get props => [id, name, startDate, description, isComplete, deadlineTimilis, status];
+  List<Object?> get props => [id, name, startDate, description, isComplete, deadlineTimilis, status, categoryId];
 }
