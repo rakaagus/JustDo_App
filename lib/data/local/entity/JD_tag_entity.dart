@@ -2,18 +2,16 @@ import 'package:equatable/equatable.dart';
 import 'package:floor/floor.dart';
 import 'package:justdo_mini_project/utils/constant.dart';
 
-@Entity(tableName: KEY_CATEGORY_TODO_TABLE, primaryKeys: ['id'])
-class CategoryEntity extends Equatable {
+@Entity(tableName: KEY_TAG_TABLE, primaryKeys: ['id'])
+class Tag extends Equatable {
 
-  CategoryEntity({
+  Tag({
     this.id = '',
     this.name = '',
-    this.colorHex = ''
   });
 
   @PrimaryKey(autoGenerate: true) @ColumnInfo(name: KEY_COL_ID) String id = '';
   @ColumnInfo(name: KEY_COL_NAME) String name = '';
-  @ColumnInfo(name: KEY_COL_COLOR_HEX) String colorHex = '';
 
   @override
   // TODO: implement props

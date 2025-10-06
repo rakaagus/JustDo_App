@@ -1,0 +1,3 @@
+enum frequencyEnum {
+  weekly, daily
+}
