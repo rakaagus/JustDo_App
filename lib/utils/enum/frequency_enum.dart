@@ -1,3 +1,3 @@
-enum frequencyEnum {
+enum FrequencyEnum {
   weekly, daily
 }

@@ -22,3 +22,10 @@ const String KEY_COL_DESCRIPTION = 'description';
 const String KEY_FREQUENCY = 'frequency';
 const String KEY_COL_IS_HAVE_GOAL = 'have_goal';
 const String KEY_COL_TODO_ID = 'todo_id';
+
+// sharedPref Key
+const String KEY_USERNAME = 'username';
+const String KEY_THEME = 'theme';
+const String KEY_LANGUAGE = 'language';
+const String KEY_FIRST_RUN = 'first_run';
+const String KEY_DAILY_REMINDER = 'daily_reminder';

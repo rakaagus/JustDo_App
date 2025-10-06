@@ -3,28 +3,36 @@ import 'package:floor/floor.dart';
 import 'package:justdo_mini_project/utils/constant.dart';
 
 @Entity(tableName: KEY_TODO_TABLE, primaryKeys: ['id'])
-class TodoEntity extends Equatable {
+class JdTodoEntity extends Equatable {
 
-  TodoEntity({
+  JdTodoEntity({
     this.id = '',
     this.name = '',
     this.startDate = '',
     this.deadlineTimilis = '',
     this.status = '',
     this.description = '',
-    this.isComple = false,
+    this.isComplete = false,
   });
 
   @PrimaryKey(autoGenerate: true) @ColumnInfo(name: KEY_COL_ID) String id = '';
   @ColumnInfo(name: KEY_COL_NAME) String name = '';
   @ColumnInfo(name: KEY_COL_START) String startDate = '';
   @ColumnInfo(name: KEY_COL_DESCRIPTION) String description = '';
-  @ColumnInfo(name: KEY_COL_IS_COMPLETE) bool isComple = false;
+  @ColumnInfo(name: KEY_COL_IS_COMPLETE) bool isComplete = false;
   @ColumnInfo(name: KEY_COL_DEADLINE) String deadlineTimilis = '';
   @ColumnInfo(name: KEY_COL_STATUS) String status = '';
 
-  @override
-  // TODO: implement props
-  List<Object?> get props => throw UnimplementedError();
+  factory JdTodoEntity.mapFromUi(JdTodoEntity entity) => JdTodoEntity(
+      id: entity.id,
+      name: entity.name,
+      startDate: entity.startDate,
+      description: entity.description,
+      isComplete: entity.isComplete,
+      deadlineTimilis: entity.deadlineTimilis,
+      status: entity.status
+  );
 
+  @override
+  List<Object?> get props => [id, name, startDate, description, isComplete, deadlineTimilis, status];
 }
