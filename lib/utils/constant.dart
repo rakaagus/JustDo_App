@@ -7,10 +7,12 @@ const String KEY_HABITS_TABLE = 'habits';
 const String KEY_TIME_SHERED = 'time_habit';
 const String KEY_TAG_TABLE = 'tags';
 const String KEY_SUBTASK_TABLE = 'subtask';
+const String KEY_JURNAL_TABLE = 'jurnal';
 
 // Column key
 const String KEY_COL_ID = 'id';
 const String KEY_COL_NAME = 'name';
+const String KEY_COL_TITLE = 'title';
 const String KEY_STREAK = 'streak';
 const String KEY_COL_GOAL_TIME = 'goal_milis';
 const String KEY_COL_DEADLINE = 'deadline_milis';
@@ -23,6 +25,11 @@ const String KEY_FREQUENCY = 'frequency';
 const String KEY_COL_IS_HAVE_GOAL = 'have_goal';
 const String KEY_COL_TODO_ID = 'todo_id';
 const String KEY_COL_CATEGORY_ID = 'category_id';
+const String KEY_COL_MOOD = 'mood';
+const String KEY_COL_CONTENT = 'content';
+const String KEY_COL_CREATE_AT = 'create_at';
+const String KEY_COL_UPDATE_AT = 'update_at';
+const String KEY_COL_IS_FAV = 'is_fav';
 
 // sharedPref Key
 const String KEY_USERNAME = 'username';

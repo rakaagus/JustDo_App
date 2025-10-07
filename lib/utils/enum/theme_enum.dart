@@ -1,3 +1,3 @@
-enum ThemeEnum {
+enum JdThemeEnum {
   dark, light, system
 }

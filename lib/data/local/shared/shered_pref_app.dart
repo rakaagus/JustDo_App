@@ -21,7 +21,7 @@ class AppPreferences {
 
   String getUsername() => prefs.getString(keyUsername) ?? '';
 
-  Future<void> setTheme(ThemeEnum theme) async {
+  Future<void> setTheme(JdThemeEnum theme) async {
     await prefs.setString(keyTheme, theme.name);
   }
 

@@ -1,3 +1,3 @@
-enum FrequencyEnum {
+enum JdFrequencyEnum {
   weekly, daily
 }

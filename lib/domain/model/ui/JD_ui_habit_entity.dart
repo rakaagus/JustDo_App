@@ -6,23 +6,23 @@ class JdHabitUiEntity extends Equatable{
 
   JdHabitUiEntity({
     this.id = '',
-    this.name = '',
+    this.title = '',
     this.streak = 0,
-    this.frequency = FrequencyEnum.daily,
+    this.frequency = JdFrequencyEnum.daily,
     this.isHaveGoalDate = false,
     this.goalTime = ''
   });
 
   String id = '';
-  String name = '';
+  String title = '';
   int streak = 0;
-  FrequencyEnum frequency = FrequencyEnum.daily;
+  JdFrequencyEnum frequency = JdFrequencyEnum.daily;
   bool isHaveGoalDate = false;
   String goalTime = '';
 
   factory JdHabitUiEntity.fromLocal(JdHabitEntity entity) => JdHabitUiEntity(
       id: entity.id,
-      name: entity.name,
+      title: entity.title,
       streak: entity.streak,
       frequency: entity.frequency,
       isHaveGoalDate: entity.isHaveGoalDate,
@@ -30,5 +30,5 @@ class JdHabitUiEntity extends Equatable{
   );
 
   @override
-  List<Object?> get props => [id, name, streak, frequency, isHaveGoalDate, goalTime];
+  List<Object?> get props => [id, title, streak, frequency, isHaveGoalDate, goalTime];
 }
