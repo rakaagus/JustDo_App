@@ -20,7 +20,7 @@ class JdJurnalEntity extends Equatable {
     this.updateAt = ''
   });
 
-  @PrimaryKey(autoGenerate: true) @ColumnInfo(name: KEY_ID_NAME) String id = '';
+  @PrimaryKey(autoGenerate: true) @ColumnInfo(name: KEY_COL_ID) String id = '';
   @ColumnInfo(name: KEY_COL_NAME) String title = '';
   @ColumnInfo(name: KEY_COL_MOOD) JdMood mood = JdMood.normal;
   @ColumnInfo(name: KEY_COL_CONTENT) String content = '';

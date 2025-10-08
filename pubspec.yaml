@@ -79,6 +79,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  build_runner: ^2.2.0
   retrofit_generator: ^9.1.3
   floor_generator: ^1.3.0
 
