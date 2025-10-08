@@ -1,0 +1,3 @@
+enum JdFrequencyEnum {
+  weekly, daily
+}
