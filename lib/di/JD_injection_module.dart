@@ -5,9 +5,9 @@ import 'package:justdo_mini_project/data/local/floor/JD_subtask_dao.dart';
 import 'package:justdo_mini_project/data/local/floor/JD_tag_dao.dart';
 import 'package:justdo_mini_project/data/local/floor/JD_todo_category_dao.dart';
 import 'package:justdo_mini_project/data/local/floor/JD_todo_dao.dart';
-import 'package:justdo_mini_project/data/local/floor/database/app_database.dart';
-import 'package:justdo_mini_project/data/local/floor/database/app_database_builder.dart';
-import 'package:justdo_mini_project/data/local/shared/shered_pref_app.dart';
+import 'package:justdo_mini_project/data/local/floor/database/JD_database.dart';
+import 'package:justdo_mini_project/data/local/floor/database/JD_database_builder.dart';
+import 'package:justdo_mini_project/data/local/shared/JD_shared_prefs_app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final getIt = GetIt.instance;

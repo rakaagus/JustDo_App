@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:justdo_mini_project/data/local/floor/database/app_database.dart';
+import 'package:justdo_mini_project/data/local/floor/database/JD_database.dart';
 
 class JdDatabaseBuilder {
   static JdDatabase? _jdDatabase;

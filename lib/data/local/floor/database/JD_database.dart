@@ -17,7 +17,7 @@ import 'package:justdo_mini_project/utils/converter/JD_frequency_converter.dart'
 import 'package:justdo_mini_project/utils/converter/JD_mood_converter.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 
-part 'app_database.g.dart';
+part 'JD_database.g.dart';
 
 @TypeConverters([
   JdMoodConverter,

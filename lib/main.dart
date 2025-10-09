@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:justdo_mini_project/di/injection_module.dart';
+import 'package:justdo_mini_project/di/JD_injection_module.dart';
 
 void main() async {
   await init();
