@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:floor/floor.dart';
 import 'package:justdo_mini_project/domain/model/ui/JD_ui_habit_entity.dart';
 import 'package:justdo_mini_project/utils/constant.dart';
-import 'package:justdo_mini_project/utils/enum/frequency_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_frequency_enum.dart';
 
 @Entity(tableName: KEY_HABITS_TABLE, primaryKeys: ['id'])
 class JdHabitEntity extends Equatable {

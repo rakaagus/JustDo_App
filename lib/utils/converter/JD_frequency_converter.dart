@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:justdo_mini_project/utils/enum/frequency_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_frequency_enum.dart';
 
 class JDFrequencyConverter extends TypeConverter<JdFrequencyEnum, String> {
   @override

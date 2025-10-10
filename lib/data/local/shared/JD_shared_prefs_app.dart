@@ -1,5 +1,5 @@
 import 'package:justdo_mini_project/utils/constant.dart';
-import 'package:justdo_mini_project/utils/enum/theme_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_theme_enum.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppPreferences {

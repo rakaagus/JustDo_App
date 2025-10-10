@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:justdo_mini_project/utils/enum/mood_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_mood_enum.dart';
 
 class JdMoodConverter extends TypeConverter<JdMood, String> {
   @override

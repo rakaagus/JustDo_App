@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:justdo_mini_project/data/local/entity/JD_jurnal_entity.dart';
-import 'package:justdo_mini_project/utils/enum/mood_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_mood_enum.dart';
 
 class JdJurnalUiEntity extends Equatable {
 

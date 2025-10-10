@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:floor/floor.dart';
 import 'package:justdo_mini_project/domain/model/ui/JD_ui_jurnal_entity.dart';
 import 'package:justdo_mini_project/utils/constant.dart';
-import 'package:justdo_mini_project/utils/enum/mood_enum.dart';
+import 'package:justdo_mini_project/utils/enum/JD_mood_enum.dart';
 
 @Entity(
     tableName: KEY_JURNAL_TABLE,
